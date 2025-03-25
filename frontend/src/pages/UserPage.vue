@@ -3,8 +3,8 @@
         <div class="flex justify-between items-center mb-4 flex-wrap gap-4 ">
             <h1 class="text-2xl font-bold m-0">User Detail</h1>
             <div class="flex gap-2">
-                <Button label="Editar" icon="pi pi-pencil" class="mr-2" @click="editUser" />
-                <Button label="Deletar" icon="pi pi-trash" class="p-button-danger" @click="confirmDelete" />
+                <Button label="Edit" icon="pi pi-pencil" class="mr-2" @click="editUser" />
+                <Button label="Delete" icon="pi pi-trash" class="p-button-danger" @click="confirmDelete" />
             </div>
         </div>
 

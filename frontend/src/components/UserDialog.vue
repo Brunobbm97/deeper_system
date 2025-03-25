@@ -1,5 +1,5 @@
 <template>
-    <Dialog :visible="visible" modal header="Usuário" :style="{ width: '30rem' }"
+    <Dialog :visible="visible" modal header="User" :style="{ width: '30rem' }"
         @update:visible="$emit('update:visible', $event)">
         <div class="p-fluid">
             <div class="field">
@@ -39,8 +39,8 @@
             </div>
 
             <div class="flex justify-end mt-4">
-                <Button label="Cancelar" icon="pi pi-times" class="p-button-text" @click="close" />
-                <Button label="Salvar" icon="pi pi-check" class="ml-2" @click="save" />
+                <Button label="Cancel" icon="pi pi-times" class="p-button-text" @click="close" />
+                <Button label="Save" icon="pi pi-check" class="ml-2" @click="save" />
             </div>
         </div>
 
