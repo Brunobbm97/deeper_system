@@ -62,7 +62,7 @@ root/
 
 ## ⚙️ Setup Instructions
 
-###  📥 Clone the repository
+### 📥 Clone the repository
 
 ```
 git clone https://github.com/Brunobbm97/deeper_system.git 
@@ -75,9 +75,10 @@ cd deeper_system
 2. Create a `.env` file:
 
 ```
-DB_USERNAME=your_mongodb_user
-DB_PASSWORD=your_encoded_password
-DB_NAME=your_database_name
+DB_USERNAME=your_mongodb_user         # 👉 Replace with your actual MongoDB username
+DB_PASSWORD=your_encoded_password     # 👉 Replace with your actual password (URL encoded if needed)
+DB_NAME=your_database_name            # 👉 Replace with the name of your database
+# ⚠️ Important: Use the real credentials you created on MongoDB Atlas — do not keep the placeholders like your_mongodb_user.
 ```
 
 3. Install dependencies:
